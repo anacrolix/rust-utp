@@ -1,0 +1,15 @@
+[package]
+name = "rust-utp"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "uTP (Micro Transport Protocol) in pure Rust, ported from libutp via go-libutp"
+license = "MIT"
+repository = "https://github.com/anacrolix/rust-utp"
+keywords = ["utp", "bittorrent", "networking", "udp", "ledbat"]
+categories = ["network-programming"]
+
+[lib]
+name = "utp"
+
+[dependencies]
